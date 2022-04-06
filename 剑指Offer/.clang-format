@@ -3,11 +3,11 @@
 Language:	Cpp
 # BasedOnStyle:	LLVM
 # 访问说明符(public、private等)的偏移
-AccessModifierOffset:	-2
+AccessModifierOffset:	-4
 # 开括号(开圆括号、开尖括号、开方括号)后的对齐: Align, DontAlign, AlwaysBreak(总是在开括号后换行)
 AlignAfterOpenBracket:	Align
 # 连续赋值时，对齐所有等号
-AlignConsecutiveAssignments:	true
+AlignConsecutiveAssignments:	false
 # 连续声明时，对齐所有声明的变量名
 AlignConsecutiveDeclarations:	true
  
@@ -159,7 +159,7 @@ PenaltyExcessCharacter:	1000000
 PenaltyReturnTypeOnItsOwnLine:	60
  
 # 指针和引用的对齐: Left, Right, Middle
-PointerAlignment:	Left
+PointerAlignment:	Right
 # 允许重新排版注释
 ReflowComments:	true
 # 允许排序#include
