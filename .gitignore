@@ -1,0 +1,5 @@
+#开头			#注释，被git忽略
+*.out			#忽略所有.class结尾的文件
+#！Test.out		#Test.class除外
+#/bin/			#忽略bin目录下的所有文件
+#/conf/*.txt		#忽略/conf/1.txt但是不包括/conf/sub/2.txt
