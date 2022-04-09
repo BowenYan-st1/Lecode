@@ -50,6 +50,7 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "string.h": "c",
-        "queue": "cpp"
+        "queue": "cpp",
+        "*.ccp": "cpp"
     }
 }
